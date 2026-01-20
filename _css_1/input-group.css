@@ -6,8 +6,8 @@
     padding: 3px 16px 3px 3px;
     border-radius: 8px;
     width: 100%; /* ocupa toda a largura disponível */
-    max-width: 1000px; /* Tamanho da barra branca em comprimento */
-    margin-left: -60px; /* gMovimenta a barra baranca para a esquerda */
+    max-width: 500px; /* Tamanho da barra branca em comprimento */
+    margin-left: 60px; /* gMovimenta a barra baranca para a esquerda */
     margin-right: auto; /* empurra para a esquerda */
 
 
