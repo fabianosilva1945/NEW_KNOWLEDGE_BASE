@@ -1,0 +1,27 @@
+/* Contêiner do menu principal */
+.menu {
+    position: relative; /* Garante que os submenus sejam posicionados corretamente */
+}
+
+/* Submenus */
+.menu ul ul {
+    position: absolute; /* Posiciona os submenus */
+    z-index: 1000; /* Garante que os submenus apareçam acima do conteúdo da página */
+	display: none; /* Esconde os submenus inicialmente */
+}
+
+/* Ajuste adicional para submenus aninhados */
+.menu ul ul ul {
+    left: 100%; /* Posiciona submenus aninhados à direita */
+    top: 0;
+    z-index: 1000; /* Garante que os submenus aninhados apareçam acima do conteúdo da página */
+
+}
+
+        .menu li:hover > ul {
+            display: block; /* Mostra o submenu quando o pai é hover */
+        }
+        .menu ul ul.open-up {
+            bottom: 100%;
+        }
+

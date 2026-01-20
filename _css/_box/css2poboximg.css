@@ -1,0 +1,7 @@
+/* Estilo adicional para as imagens dentro da caixa */
+.content-box img {
+    max-width: 100%; /* Assegura que a imagem não ultrapasse os limites da caixa */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Bordas ligeiramente arredondadas para a imagem */
+    margin-top: 20px; /* Espaçamento acima da imagem */
+}

@@ -1,0 +1,43 @@
+/* Container das imagens */
+.image-list {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex; /* Alinha os itens horizontalmente */
+    flex-wrap: wrap; /* Permite quebra de linha se necessário */
+    gap: 10px; /* Espaçamento entre os itens horizontalmente e verticalmente */
+    justify-content: center; /* Centraliza os itens no meio */
+}
+
+/* Itens da lista */
+.image-item {
+    display: flex; /* Alinha o conteúdo dentro do item */
+    flex-direction: column; /* Empilha a imagem e o texto verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    max-width: 250px; /* Define a largura máxima dos itens */
+    transition: transform 0.3s ease; /* Suaviza o efeito de zoom */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar o mouse */
+    margin: 0; /* Remove espaçamento adicional */
+}
+
+/* Ajuste de estilo das imagens */
+.image-item img {
+    width: 150px; /* Define a largura padrão dos ícones */
+    height: 250px; /* Define a altura padrão dos ícones */
+    object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorção */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    transition: transform 0.3s ease; /* Suaviza o efeito de zoom */
+}
+
+/* Efeito de zoom ao passar o mouse */
+.image-item:hover img {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% */
+}
+
+/* Alinha o texto e reduz o espaço extra */
+.image-item p {
+    margin-top: 5px; /* Espaçamento entre a imagem e o texto */
+    margin-bottom: 0; /* Remove espaçamento inferior */
+    line-height: 1.2; /* Reduz a altura da linha do texto */
+	text-align: center; /* Centraliza o texto */
+}

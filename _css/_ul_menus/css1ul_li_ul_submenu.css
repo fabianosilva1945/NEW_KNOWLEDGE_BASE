@@ -1,0 +1,10 @@
+/*Configura as camadas do menu para abrir em ordem de passar o mouse*/
+
+nav ul li ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 0;
+}

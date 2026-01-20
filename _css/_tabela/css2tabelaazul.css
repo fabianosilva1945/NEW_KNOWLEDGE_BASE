@@ -1,0 +1,67 @@
+/*Tabela na cor AZUL*/
+table#orientacao
+	{
+    border: 1px solid #FFD700; /* Adiciona a borda */
+    border-collapse: collapse; /* Mescla as bordas adjacentes */
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+table#orientacao td
+	{
+	border: 1px solid #4169E1; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	color:#4169E1
+	}
+/*Esta relacionado a linha de cima a cor de fundo e cor da letra*/
+table#orientacao th
+	{
+	border: 1px solid #4169E1; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	background-color: #4169E1;
+	color: #ffffff;
+	}
+table#orientacao tr
+	{
+	border: 1px solid #4169E1; /* Adiciona a borda */
+	}
+
+table#orientacao td.tituloorientacao  
+	{
+	color: #ffffff;/*Cor da letra*/
+	border: 1px solid #4169E1; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	background-color: #4169E1;
+	}
+
+table#orientacao td.descricaoorientacao  
+	{
+
+	border: 1px solid #4169E1; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: justify;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	}
+
+
+/*	colspan="2" - Ocupa duas colunas*/
+/*rolspan="2" - Ocupa duas linhas*/
+
+
+/*Tons de Azul
+Azul Claro: #ADD8E6
+Azul Céu: #87CEEB
+Azul Royal: #4169E1
+Azul Marinho: #000080
+Azul Dodger: #1E90FF
+Azul Aço: #4682B4
+Azul Cobalto: #0047AB
+Azul Elétrico: #7DF9FF
+Azul Cadete: #5F9EA0
+Azul Turquesa: #40E0D0

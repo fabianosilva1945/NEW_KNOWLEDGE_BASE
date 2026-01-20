@@ -1,0 +1,13 @@
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    body {
+        background-size: auto 100%; /* Ajusta o tamanho da imagem para cobrir a altura em telas menores */
+    }
+}
+
+/* Media query para telas muito pequenas */
+@media (max-width: 480px) {
+    body {
+        background-size: 100% auto; /* Ajusta o tamanho da imagem para cobrir a largura em telas muito pequenas */
+    }
+}

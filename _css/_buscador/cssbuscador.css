@@ -1,0 +1,29 @@
+ /*Esta relacionado aos corpo da tela POs*/     
+		body 
+		{
+            font-family: Arial, sans-serif;
+			color:#000000;
+            margin: 0;
+            padding: 20px;
+            background-color: #186767;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+/*Esta relacionado aos campos de descrição dos POs*/
+        li {
+            padding: 8px;
+            background-color: #ffffff;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+        li.hidden {
+            display: none;
+        }

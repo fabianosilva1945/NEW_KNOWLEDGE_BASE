@@ -1,0 +1,52 @@
+/*Tabela risco*/
+table#tabelarodape
+	{
+	padding-right :100%;
+	margin-left:90px; /*esquerda*/
+	margin-right:90px;/*direita*/
+	border-collapse: collapse; /* Mescla as bordas adjacentes */
+	border: 1px solid #FFD700; /* Adiciona a borda */
+	}
+table#tabelarodape  th
+	{
+	border: 1px solid #385623; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	background-color: #385623;
+	color: #ffffff;
+	}
+
+table#tabelarodape  td
+	{
+	border: 1px solid #385623; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	}
+table#tabelarodape  tr
+	{
+	border: 1px solid #385623; /* Adiciona a borda */
+	}
+
+table#tabelarodape  td.tabelarodape1 
+	{
+	color: #000000;
+	border: 1px solid #385623; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	background-color: #385623;
+	}
+
+table#tabelarodape  td.tabelarodape2 
+	{
+	border: 1px solid #385623; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	}
+
+
+/*	colspan="2" - Ocupa duas colunas*/
+/*rolspan="2" - Ocupa duas linhas*/

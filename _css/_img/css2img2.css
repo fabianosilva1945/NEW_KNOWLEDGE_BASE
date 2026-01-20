@@ -1,0 +1,36 @@
+img 
+		{
+            display: block;
+            margin: 10px auto;
+        }
+
+
+
+/*Ajustar Tamanho da Imagem*/
+.imagem
+		{
+            width: 100%; /* Ajusta a largura da imagem ao tamanho do contêiner pai */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+
+/*Tornar a Imagem Responsiva*/
+.imagem 
+		{
+            max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner pai */
+            height: auto; /* Mantém a proporção da imagem */
+		}
+/*Adicionar Bordas e Margens*/
+.imagem
+		{
+            border: 5px solid #000; /* Adiciona uma borda preta de 5px */
+            border-radius: 10px; /* Arredonda os cantos da imagem */
+            margin: 20px; /* Adiciona uma margem ao redor da imagem */
+        }
+/*Imagem em Formato Circular*/
+.imagem 
+		{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Torna a imagem circular */
+            object-fit: cover; /* Ajusta a imagem para cobrir o elemento de forma proporcional */
+        }

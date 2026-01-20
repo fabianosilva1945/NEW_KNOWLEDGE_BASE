@@ -1,0 +1,5 @@
+/*Menu superior com relação ao movimento de mouse*/
+
+nav ul li:hover > a {
+    background-color: #555;
+}

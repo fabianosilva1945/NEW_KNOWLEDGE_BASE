@@ -1,0 +1,54 @@
+/* Tabela na cor PRETA */
+table#dica {
+    border: 1px solid #000000; /* Adiciona a borda */
+    border-collapse: collapse; /* Mescla as bordas adjacentes */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#dica td {
+    border: 1px solid #000000; /* Adiciona a borda */
+    padding: 10px; /* Espaço interno na célula */
+    text-align: center; /* Texto ao centro */
+    vertical-align: middle; /* Texto ao centro */
+}
+
+table#dica th {
+    border: 1px solid #000000; /* Adiciona a borda */
+    padding: 10px; /* Espaço interno na célula */
+    text-align: center; /* Texto ao centro */
+    vertical-align: middle; /* Texto ao centro */
+    background-color: #000000;
+    color: #ffffff;
+}
+
+table#dica tr {
+    border: 1px solid #000000; /* Adiciona a borda */
+}
+
+/* Célula do cabeçalho */
+table#dica td.titulodica {
+    color: #000000;
+    border: 1px solid #000000; /* Adiciona a borda */
+    padding: 10px; /* Espaço interno na célula */
+    text-align: center; /* Texto ao centro */
+    vertical-align: middle; /* Texto ao centro */
+    background-color: #000000;
+}
+
+table#dica td.descricaodica {
+    border: 1px solid #000000; /* Adiciona a borda */
+    padding: 10px; /* Espaço interno na célula */
+    text-align: justify; /* Texto justificado */
+    vertical-align: middle; /* Texto ao centro */
+}
+
+/*	colspan="2" - Ocupa duas colunas*/
+/*rolspan="2" - Ocupa duas linhas*/
+
+/* #000000 - Preto*/
+/* #002060 - Azul*/
+/* #C00000 - vermelho*/
+/* #538135 - Verde*/
+/* #C0C0C0 - Cinza*/
+/* #385623 - Verde Musgo*/

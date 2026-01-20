@@ -1,0 +1,23 @@
+   .filter-input {
+            margin-bottom: 8px;
+            font-size: 8px; /* Tamanho da fonte reduzido */
+            padding: 5px; /* Padding reduzido */
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+			font-size: 11px; /* Tamanho da fonte reduzido *
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }

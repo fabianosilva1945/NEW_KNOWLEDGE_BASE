@@ -1,0 +1,15 @@
+/*backgroud da pagina*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:50;
+	height:100%;
+	width: 100%;
+	margin-bottom:38%;
+    /*background-color: #362100;*/
+	background-image: url('C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_imagem/_background/backverde.jpg');
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: bottom; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+	 z-index: -1; /* Garante que o conteúdo do body fique acima da imagem */

@@ -1,0 +1,5 @@
+h1 {
+  display: inline; /* Ou inline-block, dependendo do efeito desejado */
+  background-color: #00000; /* Cor de fundo desejada */
+  padding: 5px; /* Espaçamento ao redor do texto */
+}

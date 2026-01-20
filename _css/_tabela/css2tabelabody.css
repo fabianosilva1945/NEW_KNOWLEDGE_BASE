@@ -1,0 +1,57 @@
+/* Estilo para a tabela */
+#body {
+    width: 100%; /* Tabela ocupa 100% da largura disponível */
+    border-collapse: collapse; /* Remove espaços entre bordas */
+    margin: 20px 0;
+    font-size: 12px;
+    text-align: left;
+}
+
+/* Cabeçalho da tabela */
+#body th {
+    background-color: #f4f4f4; /* Cor de fundo do cabeçalho */
+    color: #333; /* Cor do texto */
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Células da tabela */
+#body td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Linhas alternadas */
+#body tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor alternada para as linhas pares */
+}
+
+/* Linha ao passar o mouse */
+#body tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+/* Célula específica */
+#td\.titulodica {
+    background-color: #ffebcc; /* Destaque */
+    color: #333;
+    font-weight: bold;
+}
+
+/* Colunas com ID 'linha1' */
+#linha1 {
+    color: #555;
+}
+
+
+/*	colspan="2" - Ocupa duas colunas*/
+/*rolspan="2" - Ocupa duas linhas*/
+
+/* #000000 - Preto*/
+/* #002060 - Azul*/
+/* #C00000 - vermelho*/
+/* #538135 - Verde*/
+/* #C0C0C0 - Cinza*/
+/* #385623 - Verde Musgo*/

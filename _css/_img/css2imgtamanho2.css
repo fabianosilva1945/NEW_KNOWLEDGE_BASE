@@ -1,0 +1,19 @@
+
+<style>
+  .container img {
+    max-width: 100%;   /* A imagem nunca será maior que o container */
+    height: auto;      /* Mantém a proporção */
+    display: block;    /* Remove espaços extras */
+    object-fit: contain; /* Garante que a imagem se ajuste sem cortar */
+  }
+
+  .container {
+    width: 600px;      /* Exemplo de largura fixa da área branca */
+    background: #fff;  /* Área branca */
+    overflow: hidden;  /* Evita que algo ultrapasse */
+    padding: 10px;
+  }
+</style>
+
+<div class="container">
+  <img src="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site_novo_imagem\_icones\_P\_postman\PO_3601\IMG_3601_0000.jpg" alt

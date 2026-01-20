@@ -1,0 +1,8 @@
+h6
+{
+	color:#ffffff;
+	Padding: 15px;
+	letter-spacing: 0.5px; /* espaço entre as letras lateralmente - ou ajuste para um valor desejado, ex: 0.5px */
+	text-align:right;
+	margin-top: -3%;
+}

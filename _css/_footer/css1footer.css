@@ -1,0 +1,24 @@
+        footer {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;/*Posicionamento do quadro*/
+            transform: translateX(-50%);
+            color: #ffffff;
+            font-size: 16px; /* Ajuste o tamanho da fonte aqui */
+            background-color: #314405; /* Se quiser mudar a cor de fundo do footer */
+            padding: 10px 0px; /* Se quiser adicionar padding ao footer */
+			width: 100%; /* Ajuste a largura conforme necessário */
+			text-align: center; /* Centraliza o texto */
+			height: 20px; /* Ajuste a altura conforme necessário */
+			line-height: 3px; /* Ajuste o alinhamento vertical do texto */
+        }
+/*Amarelo Padrão - Hex: #FFFF00
+Amarelo Claro - Hex: #FFFFE0
+Amarelo Ouro - Hex: #FFD700
+Amarelo Canário - Hex: #FFEF00
+Amarelo Ouro Velho - Hex: #CFB53B
+Amarelo Milho - Hex: #FFF8DC
+Amarelo Mostarda - Hex: #FFDB58
+Amarelo Pastel - Hex: #FAFAD2
+Amarelo Limão - Hex: #FFFACD
+Amarelo Âmbar - Hex: #FFBF00

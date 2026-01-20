@@ -1,0 +1,55 @@
+/* Estilos para a tabela */
+#tabelarisco {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilos para os cabeçalhos */
+#tabelarisco th {
+    background-color: #696969; /* Cor de fundo azul */
+    color: white; /* Cor do texto branco */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento centralizado */
+    border: 1px solid #DEE2E6; /* Borda cinza claro */
+}
+
+/* Estilos para as células de dados */
+#tabelarisco td {
+    padding: 8px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento à esquerda */
+    border: 1px solid #DEE2E6; /* Borda cinza claro */
+}
+
+/* Estilo para as células de dados da primeira linha */
+#tabelarisco td#linha1 {
+    background-color: #D3D3D3; /* Cor de fundo amarela para linha 1 */
+}
+
+/* Estilo para as células de dados da segunda linha */
+#tabelarisco td#linha2 {
+    background-color: #D3D3D3; /* Cor de fundo verde para linha 2 */
+}
+
+
+
+
+
+
+/*	colspan="2" - Ocupa duas colunas*/
+/*rolspan="2" - Ocupa duas linhas*/
+
+/*
+/* #385623 - Verde Musgo*/
+
+Tons de Verde
+Verde Claro: #90EE90
+Verde Lima: #00FF00
+Verde Floresta: #228B22
+Verde Escuro: #006400
+Verde Oliva: #808000
+Verde Primavera: #00FF7F
+Verde Marinho: #2E8B57
+Verde Menta: #98FF98
+Verde Limão: #32CD32
+Verde Musgo: #8A9A5B

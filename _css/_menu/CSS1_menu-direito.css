@@ -1,0 +1,27 @@
+.menu-direito {
+    position: fixed; /* Mantém fixo na tela */
+    right: 0;        /* Alinha à direita */
+    top: 0;          /* Começa no topo */
+    width: 250px;    /* Largura do menu */
+    height: 100%;    /* Altura total da tela */
+    background-color: #f4f4f4; /* Cor de fundo */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1); /* Sombra opcional */
+    padding: 20px;   /* Espaço interno */
+    z-index: 999;    /* Fica sobre o conteúdo */
+    overflow-y: auto; /* Permite rolagem caso tenha muito conteúdo */
+}
+
+.menu-direito ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-direito li {
+    margin-bottom: 15px;
+}
+
+.menu-direito a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}

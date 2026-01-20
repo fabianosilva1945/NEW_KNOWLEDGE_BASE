@@ -1,0 +1,80 @@
+/* Estilo do header para fixá-lo no topo */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #567215; /* Ajuste a cor conforme necessário */
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 2px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.menu-image img {
+    height: 120px; /* Ajuste conforme necessário */
+    width: auto;   /* Mantém proporção */
+    display: block;
+    margin: 0;     /* Remove centralização */
+    float: left;   /* Força alinhamento à esquerda */
+}
+
+
+.menu-image {
+    position: absolute; /* ou fixed se quiser que acompanhe scroll */
+    top: 10px;
+    left: 10px;
+
+}
+
+.menu {
+    display: flex;           /* Coloca imagem e itens lado a lado */
+    align-items: center;     /* Alinha verticalmente */
+    background-color: #3a5f0b; /* Cor do menu */
+    padding: 10px;
+}
+
+.menu-image img {
+    height: 60px; /* Ajuste conforme necessário */
+    width: auto;
+    margin-right: 20px; /* Espaço entre imagem e menu */
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 15px; /* Espaço entre os links */
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+

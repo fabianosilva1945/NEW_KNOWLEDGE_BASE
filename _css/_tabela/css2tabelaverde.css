@@ -1,0 +1,72 @@
+/*Tabela na cor VERDE*/
+/*TABELA*/
+table#observacao 
+	{
+    border: 1px solid #FFD700; /* Adiciona a borda */
+    border-collapse: collapse; /* Mescla as bordas adjacentes */
+    margin-left: auto;
+    margin-right: auto;
+	}
+table#tabelarodape  th
+	{
+	border: 1px solid #385623; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	background-color: #228B22;
+	color: #ffffff;
+	}
+
+/* TD - Estilo para alternar cores nas linhas */
+table#observacao td
+	{
+	border: 1px solid #90EE90; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	}
+
+table#observacao td.tituloobservacao 
+	{
+	color: #000000;
+	border: 1px solid #90EE90; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	background-color: #90EE90;
+	}
+
+table#observacao td.descricaoobservacao 
+	{
+
+	border: 1px solid #90EE90; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: justify;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	}
+	
+/* TR - Estilo para alternar cores nas linhas */
+table#observacao tr
+	{
+	border: 1px solid #90EE90; /* Adiciona a borda */
+	}
+table#observacao tr:hover {
+    background-color: #90EE90; /* Cor de fundo quando o mouse está sobre a linha */
+}
+
+
+/*colspan="2" - Ocupa duas colunas*/
+/*rolspan="2" - Ocupa duas linhas*/
+
+/* Relacionado as cores em tons de verde*/
+/*Verde Musgo: #385623 */
+/*Verde Claro: #90EE90 */
+/*Verde Lima: #00FF00 */
+/*Verde Floresta: #228B22 */
+/*Verde Escuro: #006400 */
+/*Verde Oliva: #808000 */
+/*Verde Primavera: #00FF7F */
+/*Verde Marinho: #2E8B57 */
+/*Verde Menta: #98FF98 */
+/*Verde Limão: #32CD32 */
+/*Verde Musgo: #8A9A5B */

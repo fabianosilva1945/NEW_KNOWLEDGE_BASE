@@ -1,0 +1,34 @@
+/* Estilos básicos para a tabela */
+/* Estilos básicos para a tabela */
+/* Estilos básicos para a tabela */
+table#observacao {
+    width: 100%;
+    /*border-collapse: collapse;*/
+	border: 1px solid #FFD700; /* Adiciona a borda */
+}
+
+table#observacao th {
+    background-color: #FFD700; /* Define a cor de fundo amarela */
+    color: #000000; /* Define a cor do texto preta */
+}
+
+table#observacao td {
+    background-color: #fffffc; /* Cor de fundo para as células */
+    color: #000000; /* Define a cor do texto preta */
+}
+
+/* Estilo para alternar cores nas linhas */
+tr:nth-child(even) {
+    background-color: #fffffc;
+}
+
+tr:hover {
+    background-color: #ffd700; /* Cor de fundo quando o mouse está sobre a linha */
+}
+
+/* #000000 - Preto*/
+/* #002060 - Azul*/
+/* #C00000 - vermelho*/
+/* #538135 - Verde*/
+/* #C0C0C0 - Cinza*/
+/* #385623 - Verde Musgo*/

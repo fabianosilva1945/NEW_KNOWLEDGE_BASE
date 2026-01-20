@@ -1,0 +1,9 @@
+/*Menu superior ajuste de letras cor, formato*/
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+}

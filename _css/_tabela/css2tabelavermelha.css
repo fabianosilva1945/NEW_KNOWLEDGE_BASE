@@ -1,0 +1,65 @@
+/*Tabela na cor VERMELHA*/
+table#advertencia
+	{
+    border: 1px solid #FFD700; /* Adiciona a borda */
+    border-collapse: collapse; /* Mescla as bordas adjacentes */
+    margin-left: auto;
+    margin-right: auto;
+	}
+/* Estilos para os cabeçalhos */
+table#advertencia th {
+    background-color: #FF6347; /* Cor de fundo azul */
+    color: white; /* Cor do texto branco */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento centralizado */
+    border: 1px solid #DEE2E6; /* Borda cinza claro */
+}
+table#advertencia td
+	{
+	border: 1px solid #FF6347; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	}
+table#advertencia tr
+	{
+	border: 1px solid #FF6347; /* Adiciona a borda */
+	}
+
+table#advertencia td.tituloadvertencia 
+	{
+	color: #ffffff;
+	border: 1px solid #FF6347; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	background-color: #FF6347;
+	}
+
+table#advertencia td.descricaoadvertencia 
+	{
+
+	border: 1px solid #FF6347; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: justify;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	}
+
+/* #000000 - Preto*/
+/* #002060 - Azul*/
+/* #C00000 - vermelho*/
+/* #538135 - Verde*/
+/* #C0C0C0 - Cinza*/
+/* #385623 - Verde Musgo*/
+
+Tons de Vermelho
+Vermelho Claro: #FFA07A
+Vermelho Tomate: #FF6347
+Vermelho Fogo: #FF4500
+Vermelho Escuro: #8B0000
+Vermelho Indian: #CD5C5C
+Vermelho Tijolo: #B22222
+Vermelho Coral: #FF7F50
+Vermelho Alaranjado: #FF4500
+Vermelho Cereja: #D2042D
+Vermelho Sangue: #660000

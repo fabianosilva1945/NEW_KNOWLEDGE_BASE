@@ -1,0 +1,41 @@
+/*Tabela risco*/
+table#tabelarisco 
+	{
+	padding-right :100%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+table#tabelarisco  td
+	{
+	border: 1px solid #FFFFFF; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	}
+table#tabelarisco  tr
+	{
+	border: 1px solid #FFFFFF; /* Adiciona a borda */
+	}
+
+table#tabelarisco  td.tabelarisco1 
+	{
+	color: #000000;
+	border: 1px solid #FFFFFF; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	background-color: #FFFFFF;
+	}
+
+table#tabelarisco  td.tabelarisco2 
+	{
+	border: 1px solid #FFFFFF; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	}
+
+
+/*	colspan="2" - Ocupa duas colunas*/
+/*rolspan="2" - Ocupa duas linhas*/

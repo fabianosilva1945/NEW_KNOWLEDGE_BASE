@@ -1,0 +1,16 @@
+/*backgroud da pagina*/
+
+body {
+    font-family: Arial, sans-serif; /*Identifica o tipo de fonte utilizada no corpo da pagina*/
+    margin: 0; /**/
+    padding:500; /**/
+	height:100%; /**/
+	width: 100%; /**/
+	margin-bottom:58%; /*Ajusta a altura da imagem*/
+    /*background-color: #362100;*//*Indica a cor de fundo*/
+	background-image: url('C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_novo_imagem/_icones/_B/_background/IMG_BACK_0000.jpg'); /*Imagem de fundo*/
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: bottom; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+	 z-index: -1; /* Garante que o conteúdo do body fique acima da imagem */
+}

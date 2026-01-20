@@ -1,0 +1,31 @@
+/*cabeçalho*/
+
+header 
+	{
+        background: #007655;
+        color: #fff;
+        padding: 2px 0;
+        text-align: center;
+		display: flex;
+		position: fixed;
+		justify-content: space-between;
+		z-index: 1000; /* Para garantir que o header fique acima de outros elementos */
+		top: 0;
+		left: 0;
+		width: 100%;
+    }
+/*#007655 Verde #FDC908 AMARELO #BD2429 VERMELHO*/
+
+header img 
+	{
+        margin-left: 10px;
+        height: 40px; /* Ajuste a altura conforme necessário */
+    }
+		
+header h1 
+	{
+		margin: 0;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}

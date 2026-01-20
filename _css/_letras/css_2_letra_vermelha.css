@@ -1,0 +1,22 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.lista-requisitos {
+    list-style: none; /* Remove os marcadores padrão */
+    padding: 0;
+    margin: 0;
+}
+
+.lista-requisitos li {
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+    font-size: 16px;
+}
+
+.ho {
+    color: red;
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+    font-weight: bold;
+}

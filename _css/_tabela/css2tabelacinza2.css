@@ -1,0 +1,36 @@
+/* Estilo da tabela */
+#importante {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaçamento entre as bordas das células */
+    margin: 20px 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Estilo do cabeçalho */
+#importante thead tr {
+    background-color: #cccccc; /* Cor de fundo cinza */
+    color: #333; /* Cor do texto do cabeçalho */
+}
+
+/* Estilo das células do cabeçalho */
+#importante th {
+    padding: 12px;
+    border: 1px solid #ddd; /* Borda nas células do cabeçalho */
+}
+
+/* Estilo das células do corpo da tabela */
+#importante td {
+    padding: 12px;
+    border: 1px solid #ddd; /* Borda nas células do corpo */
+}
+
+/* Estilo das linhas alternadas */
+#importante tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor de fundo diferente para linhas pares */
+}
+
+/* Estilo ao passar o mouse nas linhas */
+#importante tbody tr:hover {
+    background-color: #f1f1f1; /* Efeito hover nas linhas */
+}

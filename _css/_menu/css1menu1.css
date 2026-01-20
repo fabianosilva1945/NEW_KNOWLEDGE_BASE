@@ -1,0 +1,31 @@
+/* Menu principal */
+.menu1 {
+    position: relative;
+    display: inline-block;
+}
+
+.menu1 > a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #567219;;
+}
+
+.menu1 > a:hover {
+    background-color: #560000;
+}
+
+.menu1 .menu2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #000000;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.menu1:hover .menu2 {
+    display: block;
+}

@@ -1,0 +1,8 @@
+
+/*Adicionar Bordas e Margens*/
+.imagem
+		{
+            border: 5px solid #000; /* Adiciona uma borda preta de 5px */
+            border-radius: 10px; /* Arredonda os cantos da imagem */
+            margin: 20px; /* Adiciona uma margem ao redor da imagem */
+        }

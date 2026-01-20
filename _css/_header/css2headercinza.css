@@ -1,0 +1,27 @@
+/*cabeçalho*/
+
+header 
+	{
+        background: #3c3c3c;
+        color: #fff;
+        padding: 2px 0;
+        text-align: center;
+		display: flex;
+		position: relative;
+		justify-content: space-between;
+    }
+/*#007655 Verde #FDC908 AMARELO #BD2429 VERMELHO*/
+
+header img 
+	{
+        margin-left: 10px;
+        height: 40px; /* Ajuste a altura conforme necessário */
+    }
+		
+header h1 
+	{
+		margin: 0;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}

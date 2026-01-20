@@ -1,0 +1,7 @@
+/* Estilo para reduzir o tamanho da imagem */
+.imagem-reduzida {
+    width: 100px; /* Define a largura da imagem */
+    height: auto;  /* Mantém a proporção original da imagem */
+    display: block; /* Para ajustar melhor o alinhamento em células de tabela */
+    margin: auto; /* Centraliza a imagem dentro da célula */
+}

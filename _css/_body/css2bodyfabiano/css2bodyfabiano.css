@@ -1,0 +1,17 @@
+/*Esta relacionado a imagem de findo*/
+
+body {
+    font-family: Arial, sans-serif; /*Identifica o tipo de fonte utilizada no corpo da pagina*/
+    margin: 0; /*é a propriedade que controla o espaço externo ao redor de um elemento*/
+    padding:50; /*é a propriedade que controla o espaço interno entre o conteúdo de um elemento e sua borda*/
+	height:100%; /*é a propriedade que controla a altura de um elemento*/
+	width: 100%; /*é a propriedade que controla a largura de um elemento*/
+	margin-bottom:39.5%; /*é a propriedade que controla o espaço externo ao redor de um elemento*/
+    /*background-color: #362100;*//*Indica a cor de fundo*/
+	background-image: url('C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_imagem/_background/fundo-realista-de-luzes-de-neon_23-2148916523.avif'); /*Imagem de fundo*/
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: bottom; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+	 z-index: -1; /* Garante que o conteúdo do body fique acima da imagem */
+	 
+	 

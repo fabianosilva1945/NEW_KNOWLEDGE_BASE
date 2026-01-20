@@ -1,0 +1,54 @@
+/* Adicione este CSS ao seu arquivo CSS correspondente ou dentro de um <style> no HTML */
+
+/* Estilo do menu principal */
+ul.menu, ul.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu > li {
+    position: relative;
+    float: left;
+}
+/*muda a cor de fundo do menu superior*/
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    background-color: #567219;
+    color: white;
+    text-decoration: none;
+}
+/*Muda a cor depois que passa o mouse e vai a outro menu*/
+ul.menu > li:hover > a {
+    background-color: #560000;
+}
+
+/* Estilo dos submenus, como a cor de fundo dos sub menus */
+ul.menu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #560000;
+}
+
+ul.menu ul li {
+    float: none;
+    position: relative;
+}
+
+ul.menu ul li a {
+    padding: 10px;
+    color: white;
+}
+
+ul.menu ul ul {
+    top: 0;
+    left: 100%;
+}
+
+/* Mostrar submenus ao passar o mouse */
+ul.menu li:hover > ul {
+    display: block;
+}

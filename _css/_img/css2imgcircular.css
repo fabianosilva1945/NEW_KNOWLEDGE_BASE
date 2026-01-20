@@ -1,0 +1,8 @@
+/*Imagem em Formato Circular*/
+.imagem 
+		{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Torna a imagem circular */
+            object-fit: cover; /* Ajusta a imagem para cobrir o elemento de forma proporcional */
+        }

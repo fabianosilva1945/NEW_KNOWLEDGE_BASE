@@ -1,0 +1,3 @@
+nav ul li ul.submenu li:hover > ul.submenu {
+    display: block;
+}

@@ -1,0 +1,42 @@
+/*Tabela na cor amarela*/
+table#observacao 
+	{
+    border: 1px solid #FFD700; /* Adiciona a borda */
+    border-collapse: collapse; /* Mescla as bordas adjacentes */
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+table#observacao td
+	{
+	border: 1px solid #FFD700; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	}
+table#observacao tr
+	{
+	border: 1px solid #FFD700; /* Adiciona a borda */
+	}
+
+table#observacao td.titulo 
+	{
+	color: #000000;
+	border: 1px solid #FFDB58; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	background-color: #FFD700;
+	}
+
+table#observacao td.descricao 
+	{
+	border: 1px solid #FFD700; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: justify;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	}
+
+
+/*	colspan="2" - Ocupa duas colunas*/
+/*rolspan="2" - Ocupa duas linhas*/

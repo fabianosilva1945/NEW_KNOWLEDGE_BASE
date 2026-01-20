@@ -1,0 +1,6 @@
+.container 
+{
+            width: 90%; /*Esta relacionado a parte branca da pagina*/
+            margin: auto;
+            overflow: hidden;
+}

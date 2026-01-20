@@ -1,0 +1,69 @@
+/*Tabela na cor VERDE MUSGO*/
+table#definicao
+	{
+    border: 1px solid #FFD700; /* Adiciona a borda */
+    border-collapse: collapse; /* Mescla as bordas adjacentes */
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+table#definicao td
+	{
+	border: 1px solid #385623; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	}
+
+table#definicao th
+	{
+	border: 1px solid #385623; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	background-color: #385623;
+    color: #ffffff;
+	}
+
+table#definicao tr
+	{
+	border: 1px solid #385623; /* Adiciona a borda */
+	}
+
+table#definicao td.titulodefinicao
+	{
+	color: #ffffff;
+	border: 1px solid #385623; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: center;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	background-color: #385623;
+	}
+
+table#definicao td.descricaodefinicao
+	{
+
+	border: 1px solid #385623; /* Adiciona a borda */
+	padding:10px;/*Espaço interno na celula*/
+	text-align: justify;/*Texto ao centro*/
+	vertical-align:middle;/*Texto ao centro*/
+	}
+
+
+/*	colspan="2" - Ocupa duas colunas*/
+/*rolspan="2" - Ocupa duas linhas*/
+
+/*
+/* #385623 - Verde Musgo*/
+
+/*Tons de Verde
+Verde Claro: #90EE90
+Verde Lima: #00FF00
+Verde Floresta: #228B22
+Verde Escuro: #006400
+Verde Oliva: #808000
+Verde Primavera: #00FF7F
+Verde Marinho: #2E8B57
+Verde Menta: #98FF98
+Verde Limão: #32CD32
+Verde Musgo: #8A9A5B

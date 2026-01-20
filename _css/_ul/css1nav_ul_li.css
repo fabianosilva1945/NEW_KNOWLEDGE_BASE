@@ -1,0 +1,7 @@
+/*Realizado atraves deste CSS o ajuste do tamanho das letras do menu*/
+
+
+nav ul li {
+    position: relative;
+	font-size: 12px; /* Ajuste o tamanho da fonte aqui */
+}
