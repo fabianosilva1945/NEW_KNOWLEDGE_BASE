@@ -5,7 +5,7 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(180, 108, 13);
+    background-color: rgb(165, 141, 109);
     font-family: Arial, sans-serif; /*Identifica o tipo de fonte utilizada no corpo da pagina*/
     margin: 0; /**/
     padding:500; /*CSS exige unidade (px, %, rem). Sem isso, a regra é ignorada.  padding:500; */
