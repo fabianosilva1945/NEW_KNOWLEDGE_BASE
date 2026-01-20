@@ -7,7 +7,7 @@
     border-radius: 8px;
     width: 100%; /* ocupa toda a largura disponível */
     max-width: 500px; /* Tamanho da barra branca em comprimento */
-    margin-left: 60px; /* gMovimenta a barra baranca para a esquerda */
+    margin-left: 160px; /* gMovimenta a barra baranca para a esquerda */
     margin-right: auto; /* empurra para a esquerda */
 
 
