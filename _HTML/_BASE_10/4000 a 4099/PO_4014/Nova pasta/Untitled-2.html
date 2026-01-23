@@ -1,0 +1,33 @@
+<html><head>
+		<title>Teste Prestador</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	</head>
+
+	<body>
+ <iframe allow="camera" src="https://biometriahml.unimedbh.com.br/certificacao-unimedbh/prestador.html#?codPrestador=00612000127&amp;codLocal=unbh12632&amp;realizarDiagnostico=n&amp;pathSslConfig=C:/TEMP/sslConfig.properties&amp;exibirProtocolo=n&amp;diretorioRetorno=C:/TEMP&amp;urlWebService=https://biometriawshml.unimedbh.com.br/ws-VerificaPresenca&amp;isTotem=S&amp;carteiraCliente=00060210000584000" width="590px" height="580px" frameborder="0"></iframe>
+<!--<iframe allow="camera" src='https://wwwhomologa.unimedbh.com.br/certificacao-unimedbh/prestador.html#?codPrestador=00612000048&codLocal=unbh8777&realizarDiagnostico=n&pathSslConfig=C:/TEMP/sslConfig.properties&exibirProtocolo=n&diretorioRetorno=C:/TEMP&urlWebService=https://wshml.unimedbh.com.br/ws-VerificaPresenca' width='590px' height='480px' frameborder='0'></iframe>-->
+
+
+		<script type="text/javascript" src="json2.js"></script>
+		<script type="text/javascript">
+			function tratarResultado(event) {
+				var resultado = event.data;
+				
+				// IE9 nao suporta transferencia de objetos atraves de "postMessage"
+				if (typeof resultado === 'string') {
+					resultado = JSON.parse(resultado);
+				}
+				
+				if (resultado.resultadoBiometria == 0) {
+					alert('Presenca confirmada para a carteira ' + resultado.carteiraCliente + '!');
+				} else {
+					alert('Presenca nao foi confirmada.');
+				}
+			}
+			
+			addEventListener("message", tratarResultado, false);
+		</script>
+	
+
+
+</body></html>

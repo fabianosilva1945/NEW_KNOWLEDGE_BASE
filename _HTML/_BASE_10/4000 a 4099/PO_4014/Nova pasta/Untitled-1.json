@@ -1,0 +1,32 @@
+{
+    "id": "f04",
+    "cnpj": "15879468246",
+    "nome": "doce caneca",
+    "cep":"30654189",
+    "produtos":[
+        {"_id":"p16",
+        "descricao":"Panela",
+        "preco": 44.50
+        },
+        {"_id":"p17",
+        "descricao":"caneca",
+        "preco": 25
+        },
+        {"_id":"p18",
+        "descricao":"faqueiro",
+        "preco": 22.50
+        }
+    ]
+}
+
+{
+    "id": "f06",
+    "cnpj": "26979468246",
+    "nome": "beleza",
+    "cep":"30589469",
+    "produtos":[
+        {"_id":"p16"},
+        {"_id":"p17"},
+        {"_id":"p19"}
+    ]
+}

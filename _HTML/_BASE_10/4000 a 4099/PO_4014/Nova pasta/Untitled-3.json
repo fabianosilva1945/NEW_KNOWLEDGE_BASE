@@ -1,0 +1,44 @@
+
+{
+    "_id":"p16",
+    "descricao":"Panela",
+    "fornecedores":[
+        {"_id":"f04",
+        "preco": 44.50,
+        "cep":"30654189"
+        },
+        {"_id":"f06"}
+    ]
+
+}
+
+{
+    "_id":"p17",
+    "descricao":"caneca",
+    "preco": 25,
+    "fornecedores":[
+        {"_id":"f04"},
+        {"_id":"f06"}
+    ]
+}
+
+
+{
+    "_id":"p18",
+    "descricao":"faqueiro",
+    "preco": 22.50,
+    "fornecedores":[
+        {"_id":"f04"}
+    ]
+}
+
+
+{
+    "_id":"p19",
+    "descricao":"Pano de prato",
+    "preco": 11.50,
+   "fornecedores":[
+        {"_id":"f06"}
+    ]
+}
+

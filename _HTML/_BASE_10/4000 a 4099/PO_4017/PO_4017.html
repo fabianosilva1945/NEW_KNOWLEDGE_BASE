@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- Responsavel pela primeira tela do sistema -->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PO_4017</title>
+	<title>Visualizador de Documentos Word</title>
+	<!--Trabalho-->
+
+
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_css/_h1/css1h1.css">
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_css/_h2/css1h2.css">
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_css/_h3/css1h3.css">
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_css/_h4/css1h4.css">
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_css/_h5/css1h5.css">
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_css/_h6/css1h6.css">
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_css/_header/css1header.css">
+
+
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_css/_outros/css1pagina.css">
+	
+	<!--Ajuste de menu superior sendo fixo -->
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_css/_menu_super/css1menusuper.css">
+	
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_css/_menu/css1menusnovo.css">
+	<!--Footer fixo - Mantem o footer na parte inferior fixo sem afetar a pagina-->
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_css/_footer/css2footerfixo.css">
+
+	<!--Container das imagens - Coloca as imagens lateralizadas na horizontal-->
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_novo_html/_base0/_css/css0imagens.css">
+	<!--Itens da lista - Ajusta o tamanho das imagens e espaço entre elas-->
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_novo_html/_base0/_css/css0estilos_das_imagens.css">
+	<!--Ajuste de estilo das imagens - -->
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_novo_html/_base0/_css/css0itens_da_lista.css">
+	<!--Efeito de zoom ao passar o mouse - Realiza o efeito de mudar a seta para uma mão e o zoom da imagem-->
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_novo_html/_base0/_css/css0efeitos_dos_itens_com_mouse.css">
+	<!--Alinha o texto e reduz o espaço extra - reliza alinhamento do texto-->
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_novo_html/_base0/_css/css0alinha_texto.css">
+	
+	<link rel="stylesheet" href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_novo_html/_base9/_css/css9basepo.css">
+	
+	<!-- Este(s) CSS('s)Estão relacionados ao rodapé -->
+	<!-- TABELA -->
+	<link rel="stylesheet" href="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_bibliotecas\_css\_tabela/css9rodape.css">
+	<link rel="stylesheet" href="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_bibliotecas\_css\_tabela/css2tabelapreto.css">
+	
+	<!-- TAMANHO DA IMAGEM DO ITEM CLASSIFICADO -->
+	<link rel="stylesheet" href="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_bibliotecas\_css\_imagem/css9reducaodaimagem.css">
+	
+	<!-- Este(s) CSS('s)Estão relacionados ao corpo dentro do espaço em branco -->
+	<!-- TABELA -->
+	<link rel="stylesheet" href="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_bibliotecas\_css\_tabela/css9interna.css">
+	
+	<!-- Este(s) CSS('s)Estão relacionados ao PARAGRAFO -->
+	<link rel="stylesheet" href="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_bibliotecas\_css\_p/css9p.css">
+	
+	<link rel="stylesheet" href="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_bibliotecas\_css\_ul/_li/css9ul_li.css">
+	<!-- Este(s) CSS('s)Estão relacionados ao PARAGRAFO -->
+	<!-- BACKGOUNK OU IMAGEM DE FUNDO -->
+	<link rel="stylesheet" href="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_css\_body\css2bodyfabiano/css2bodypagina0.css">
+	
+</head>
+</head>
+<body>
+	<!-- INICIO DA AREA HEADER -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">ESPECIFICAR VALIDAÇÃO DO ESQUEMA JSON</a></li>
+            </ul>
+        </nav>
+    </header>
+	<!-- FIM DA AREA HEADER -->
+	
+
+	<!-- INICIO DA AREA MAIN -->
+    <main>
+        <!-- Área central em branco para descrição de documentos -->
+		<div class="descricao-documento">
+			<p>Esquema JSON é um vocabulário que permite anotar e validar documentos JSON. Você pode usar o esquema JSON para especificar regras de
+				 validação para seus campos em um formato legível.</p>
+			<P>Neste exemplo, você cria uma <STRONG>studentscoleção</STRONG> com regras de validação e observa os resultados depois de tentar inserir um documento 
+				inválido.</P>
+				<P><STRONG>Crie uma coleção com validação.</STRONG> Em mongosh, execute o seguinte comando para criar uma <STRONG>studentscoleção</STRONG> e usar o
+					<STRONG>$jsonSchemaoperador</STRONG> para definir regras de validação de esquema:</P>
+			<ul>
+				<li><strong>1. validator</strong> - É uma funcionalidade usada para validar os dados inseridos ou atualizados em uma coleção, garantindo que eles sigam 
+					um determinado esquema ou regras específicas. Ele é definido no momento da criação da coleção ou pode ser adicionado posteriormente.</li>
+					<ul>
+						<li>1.1 - Impor regras de integridade nos documentos.</li>
+						<li>1.2 - Evitar dados inconsistentes ou malformados.</li>
+						<li>1.3 - Controlar o formato dos dados (por exemplo, tipos, valores obrigatórios, padrões de string, etc.).</li>
+					</ul>
+					<ul>
+						<li><strong>Níveis de validação:</strong> Você também pode definir o nível de severidade da validação</li>
+							<ul>
+								<li>1.4 - strict: rejeita documentos que não seguem o esquema.</li>
+								<li>1.5 - moderate: permite documentos inválidos em algumas operações (como atualizações internas).</li>
+							</ul>
+					</ul>
+			</ul>
+			<ul>
+			<li><strong>2. $jsonSchema</strong> - é uma forma de definir regras de validação de documentos no MongoDB usando a especificação JSON Schema, que 
+				é um padrão para descrever a estrutura e o conteúdo de dados JSON. Ele é usado dentro do campo validator para garantir que os documentos 
+				inseridos ou atualizados em uma coleção sigam um formato específico.</li>
+				<ul>
+					<li>2.1 - bsonType: Define o tipo de dado esperado (string, int, object, array, etc.).</li>
+					<li>2.2 - required: Lista de campos obrigatórios.</li>
+					<li>2.3 - properties: Define as regras para cada campo.</li>
+					<li>2.4 - minimum / maximum: Para valores numéricos.</li>
+					<li>2.5 - pattern: Expressão regular para validar strings (como e-mails, por exemplo).</li>
+					<li>2.6 - enum: Lista de valores permitidos.</li>
+					<ul>
+						<li><strong> Vantagens de usar $jsonSchema:</strong></li>
+						<ul>
+							<li>Validação mais robusta e legível.</li>
+							<li>Compatível com ferramentas que já usam JSON Schema.</li>
+							<li>Permite validações complexas sem precisar de lógica na aplicação.</li>
+						</ul>
+					</ul>
+				</ul>
+			</ul>
+			<ul>
+				<li><strong>3. bsonType</strong>obect - é usado dentro de um $jsonSchema para indicar que o valor de um campo deve ser um objeto 
+					BSON, ou seja, uma estrutura de chave-valor aninhada, semelhante a um objeto JSON.</li>
+					<ul>
+						<li><strong>3.1 O que é um object no BSON?</strong> - Um campo com bsonType: "object" representa um documento embutido (ou subdocumento). 
+							Isso é útil quando você quer validar estruturas internas dentro de um documento principal.</li>
+						<li><strong>3.2 Quando usar bsonType: "object"?</strong> - Quando você tem subdocumentos ou estruturas aninhadas. Quando precisa validar
+							 campos internos de um objeto. Para manter a organização e integridade dos dados complexos.</li>
+						<li><strong>Neste exemplo</strong>O campo <strong>endereco</strong> é um <strong>objeto</strong> e dentro dele, há <strong>
+							validação</strong> para os campos <strong>rua, cidade e cep</strong>.</li>
+					<img src="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_novo_imagem\_icones\_9\9000 A 9099/IMG_9028.jpg" alt="Erro do sistema"/>
+					</ul>
+			</ul>
+			<ul>
+				<li><strong>4. requered</strong> o campo required é usado para especificar quais campos são obrigatórios em um documento e recebe uma 
+					lista de nomes de campos que devem obrigatoriamente estar presentes no documento. Se algum desses campos estiver ausente 
+					durante uma inserção (insert) ou atualização (update), o MongoDB rejeita a operação.</li>
+					<li>Neste exemplo, podemos ver que os campos <strong>nome e email</strong> são obrigatórios, mas o campo <strong>idade</strong> é opcional.</li>
+					<img src="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_novo_imagem\_icones\_9\9000 A 9099/IMG_9029.jpg" alt="Erro do sistema"/>
+			</ul>
+			<ul>
+				<li><strong>5. properties</strong> É onde você define as regras de validação específicas para cada campo do documento, sendo
+					 um objeto que contém uma entrada para cada campo que você deseja validar, assim Cada entrada define as características esperadas daquele 
+					 campo, como tipo (bsonType), valores mínimos/máximos, padrões de string, etc.</li>
+					 <li>Neste exemplo, <strong>properties</strong> define as regras para os campos <strong>nome, idade e email</strong> e Cada campo <strong>
+						tem seu próprio conjunto de validações</strong>. servindo assim para controlar o formato e os valores de cada campo,  garantir que 
+						os dados estejam estruturados corretamente, permitir validações específicas por campo.</li>
+
+					 <img src="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_novo_imagem\_icones\_9\9000 A 9099/IMG_9030.jpg" alt="Erro do sistema"/>
+			</ul>
+		<img src="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_novo_imagem\_icones\_9\9000 A 9099/IMG_9027.jpg" alt="Erro do sistema"/>
+        <table id="dica">
+                    <tr>
+                        <th class="sp">DICA</th>
+                    </tr>
+					<tr>
+                        <td>Esclareça as regras com campos de título e descrição - Você pode usar os campos titlee descriptionpara fornecer uma explicação 
+							das regras de validação quando elas não forem imediatamente claras. Quando um documento falha na validação, o MongoDB inclui 
+							esses campos na saída de erro.</td>
+                    </tr>
+			</table>
+		</div>
+    </main>
+	<!-- FIM DA AREA MAIN -->
+
+    <!-- Links de scripts omitidos para brevidade -->
+    <footer>
+            <table id="tabelarodape">
+                <tr>
+                    <th>Classificado</th>
+					<th>Procedimento</th>
+                    <th>Código do anexo</th>
+                    <th>Documento de referência</th>
+                    <th>Código do PO</th>
+					<th>Revisão/Versão</th>
+					<th>Este PO foi visitado</th>
+                </tr>
+                <tr>
+					<td id="linha1"><img src="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_imagem\_document\_publico/publico.jpg" alt=""class="imagem-reduzida"/></td>
+                    <td id="linha1">Operacional</td>
+                    <td id="linha1">AN.GSG.GEPP.010</td>
+                    <td id="linha1">PO.GSG.GEPP.003</td>
+                    <td id="linha1"><a href="C:/Users/uni11673/OneDrive - unimedbh/DEFINITIVA/site/_novo_html/_base9/_html_numeros/4000 a 4099/PO_4017/#.doc" target="_blank">4017</a></td>
+					<td id="linha1">1.0</td>
+					<td id="linha1"><div class="contador"><span id="contador">0</span> </div></td>
+                </tr>
+        <script src="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_novo_html\_base9\_html_documentos\4000 a 4099\PO_4017/js_4017_zerador.js"></script> 
+		<script src="C:\Users\uni11673\OneDrive - unimedbh\DEFINITIVA\site\_javascript/jscontadordevisitas2.js"></script>
+
+
+
+		
+		</table>
+
+    </footer>
+</body>
+</html>
